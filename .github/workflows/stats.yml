@@ -40,6 +40,14 @@ jobs:
           path: profile/studymaster-ai.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate LinkScribe card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=linkscribe&theme=tokyonight&hide_border=true&border_radius=12
+          path: profile/linkscribe.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate RemoteCraft card
         uses: stats-organization/github-readme-stats-action@v2
         with:

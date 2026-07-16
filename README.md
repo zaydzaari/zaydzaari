@@ -1,86 +1,111 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:2563EB,100:06B6D4&height=220&section=header&text=Zayd%20Zaari&fontSize=58&fontColor=FFFFFF&fontAlignY=36&desc=Student%20Developer%20%E2%80%A2%20Product%20Builder%20%E2%80%A2%20Morocco&descAlignY=57&descSize=18&animation=fadeIn)
+![Zayd Zaari - AI systems and product builder](https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,48:2563EB,100:F59E0B&height=220&section=header&text=Zayd%20Zaari&fontSize=58&fontColor=FFFFFF&fontAlignY=36&desc=AI%20Systems%20%7C%20Agent%20Tooling%20%7C%20Product%20Builder&descAlignY=57&descSize=18&animation=fadeIn)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=720&lines=Turning+ambitious+ideas+into+real+products;Building+mobile+and+web+experiences;Learning+to+engineer+reliable+AI+agents)](https://git.io/typing-svg)
-
-[![Profile views](https://komarev.com/ghpvc/?username=zaydzaari&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS)](https://github.com/zaydzaari)
-[![GitHub followers](https://img.shields.io/github/followers/zaydzaari?style=for-the-badge&logo=github&label=FOLLOWERS&color=2563eb)](https://github.com/zaydzaari?tab=followers)
+[![LinkScribe](https://img.shields.io/badge/Live-LinkScribe-0F766E?style=for-the-badge&logo=fastapi&logoColor=white)](https://51-170-131-7.sslip.io/)
+[![StudyMaster AI](https://img.shields.io/badge/Launch-StudyMaster_AI-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://studymaster-ai-two.vercel.app)
+[![GitHub](https://img.shields.io/badge/Follow-@zaydzaari-181717?style=for-the-badge&logo=github)](https://github.com/zaydzaari?tab=followers)
 
 </div>
 
-## `> whoami`
+## About me
 
-```yaml
-name: Zayd Zaari
-location: Morocco
-focus:
-  - mobile products
-  - web applications
-  - AI agents
-currently_building: Congress Trade Tracker
-next_goal: Build an agent with tools, memory, safety, and real evaluations
+I am a student developer from Morocco building practical AI tools and polished products. I am most interested in the engineering around AI: giving agents useful tools, running inference efficiently, designing reliable APIs, and turning experiments into software that people can actually use.
+
+Right now I am focused on:
+
+- agent tools for Codex, Claude Code, and custom GPTs
+- local speech transcription and translation on resource-constrained hardware
+- secure API design, background jobs, observability, and deployment
+- accessible web and mobile products powered by AI
+
+## Featured AI project
+
+### [LinkScribe](https://github.com/zaydzaari/linkscribe)
+
+**A self-hosted media understanding pipeline for AI agents.** LinkScribe accepts a public YouTube, TikTok, or Instagram URL, extracts only the audio, transcribes or translates it locally, and returns clean English text through an authenticated API. Codex, Claude Code, or a custom GPT can then reason over the video.
+
+```text
+Public media URL
+      -> yt-dlp
+      -> FFmpeg (16 kHz mono)
+      -> whisper.cpp (local transcription + translation)
+      -> FastAPI job queue
+      -> Codex / Claude Code / custom GPT
 ```
 
-I care about the part between an idea and a finished product: shaping the experience, building it, fixing what breaks, and shipping something real.
+- Runs on a 2-core ARM Oracle VPS with 12 GB RAM.
+- Uses a single resource-aware worker so transcription cannot exhaust the server.
+- Includes HTTPS, bearer authentication, rate limits, cleanup, and 24-hour job expiry.
+- Ships ready-to-use Codex, Claude Code, and ChatGPT integrations.
+- A 92-second spoken TikTok completed in about 36 seconds on the reference server.
+- Verified by 39 tests with 84% coverage and a green GitHub Actions pipeline.
 
-## `> current_work`
-
-> **Congress Trade Tracker** — a premium Expo application for public congressional disclosure tracking, paid alerts, and simulated portfolios.
-
-> **AI Agents** — learning tool calling, context management, memory, guardrails, evaluation, and cost-aware architecture.
-
-## `> toolkit`
+**[Repository](https://github.com/zaydzaari/linkscribe)** | **[Live service](https://51-170-131-7.sslip.io/)** | **[Demo video](https://github.com/zaydzaari/linkscribe/releases/download/v0.1.2/demo.mp4)** | **[Latest release](https://github.com/zaydzaari/linkscribe/releases/tag/v0.1.2)**
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=ts,js,python,react,html,css,nodejs,git,github,vscode&perline=10&theme=dark)](https://skillicons.dev)
+![LinkScribe demo](https://raw.githubusercontent.com/zaydzaari/linkscribe/main/docs/demo.gif)
 
 </div>
 
-## `> selected_projects`
+## Selected work
 
 <div align="center">
 
+<a href="https://github.com/zaydzaari/linkscribe">
+  <img width="48%" src="./profile/linkscribe.svg" alt="LinkScribe repository card" />
+</a>
 <a href="https://github.com/zaydzaari/studymaster-ai">
   <img width="48%" src="./profile/studymaster-ai.svg" alt="StudyMaster AI repository card" />
 </a>
-<a href="https://github.com/zaydzaari/RemoteCraft">
-  <img width="48%" src="./profile/remotecraft.svg" alt="RemoteCraft repository card" />
-</a>
-
-**[Launch StudyMaster AI ↗](https://studymaster-ai-two.vercel.app)**
 
 </div>
 
-## `> github_activity`
+| Project | What it demonstrates |
+| --- | --- |
+| [LinkScribe](https://github.com/zaydzaari/linkscribe) | Agent integrations, local inference, async APIs, ARM deployment, and production hardening |
+| [StudyMaster AI](https://github.com/zaydzaari/studymaster-ai) | An AI-powered learning product with a live, user-facing web experience |
+| [RemoteCraft](https://github.com/zaydzaari/RemoteCraft) | Remote Linux automation and server management over SSH |
+
+## Technical focus
+
+| Area | Tools and concepts |
+| --- | --- |
+| AI and agents | Codex skills, Claude Code skills, GPT Actions, whisper.cpp, tool calling, context handling |
+| Backend | Python, FastAPI, SQLite, REST APIs, job queues, long polling, authentication |
+| Media | yt-dlp, FFmpeg, speech transcription, multilingual translation |
+| Infrastructure | Linux, ARM64, systemd, Nginx, Let's Encrypt, Oracle Cloud, GitHub Actions |
+| Product | JavaScript, React, Expo, responsive UI, accessibility, deployment |
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+</div>
+
+## GitHub activity
 
 <div align="center">
 
 <img width="49%" src="./profile/stats.svg" alt="Zayd's GitHub statistics" />
-<img width="49%" src="https://streak-stats.demolab.com?user=zaydzaari&theme=tokyonight&hide_border=true&border_radius=12" alt="Zayd's GitHub contribution streak" />
-
 <img width="49%" src="./profile/top-langs.svg" alt="Zayd's most-used public repository languages" />
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=zaydzaari&theme=tokyo-night&hide_border=true&radius=12&area=true" alt="Zayd's contribution activity graph" />
 
 </div>
 
-## `> contributions`
+## Connect
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zaydzaari/zaydzaari/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zaydzaari/zaydzaari/output/github-snake.svg" />
-  <img width="100%" alt="Animated contribution snake" src="https://raw.githubusercontent.com/zaydzaari/zaydzaari/output/github-snake.svg" />
-</picture>
-
-## `> connect`
-
-I’m open to **open-source collaboration, mentorship, hackathons, internships, and ambitious projects**.
-
-If you are building something thoughtful and need a motivated contributor, reach me through GitHub.
+I am open to open-source collaboration, mentorship, hackathons, internships, and ambitious AI projects. If you are building something useful and need a motivated contributor, reach me through [GitHub](https://github.com/zaydzaari).
 
 <div align="center">
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:2563EB,100:7C3AED&height=120&section=footer)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,48:2563EB,100:0F766E&height=110&section=footer)
 
 </div>
