@@ -66,7 +66,7 @@ Public media URL
 | --- | --- |
 | [LinkScribe](https://github.com/zaydzaari/linkscribe) | Agent integrations, local inference, async APIs, ARM deployment, and production hardening |
 | [StudyMaster AI](https://github.com/zaydzaari/studymaster-ai) | An AI-powered learning product with a live, user-facing web experience |
-| [RemoteCraft](https://github.com/zaydzaari/RemoteCraft) | Remote Linux automation and server management over SSH |
+| [RemoteCraft](https://github.com/zaydzaari/RemoteCraft) | A secure FastAPI control plane with strict SSH boundaries, verified downloads, and automated testing |
 
 ## Technical focus
 
