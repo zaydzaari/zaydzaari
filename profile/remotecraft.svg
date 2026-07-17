@@ -114,14 +114,14 @@
     
 
     <text class="description" x="25" y="-5"> 
-      <tspan dy="1.2em" x="25">Experimental Python tool for remotely managing</tspan><tspan dy="1.2em" x="25">Linux-hosted Minecraft servers over SSH.</tspan>
+      <tspan dy="1.2em" x="25">A lightweight, security-first Minecraft control plane for</tspan><tspan dy="1.2em" x="25">managing Vanilla servers on a Linux VPS over SSH.</tspan>
     </text>
 
     <g transform="translate(30, 65)">
       <g transform="translate(0, 0)">
     <g data-testid="primary-lang">
-      <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#e34c26" />
-      <text data-testid="lang-name" class="gray" x="15">HTML</text>
+      <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#3572A5" />
+      <text data-testid="lang-name" class="gray" x="15">Python</text>
     </g>
     </g>
     </g>
