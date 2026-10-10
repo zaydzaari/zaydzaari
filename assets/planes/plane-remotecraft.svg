@@ -15,7 +15,7 @@
 <path d="M16 310 V320 H26" fill="none" stroke="#66625d" stroke-width="1"/>
 <path d="M1264 310 V320 H1254" fill="none" stroke="#66625d" stroke-width="1"/>
 <text x="48.0" y="44.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="1.6" xml:space="preserve" >RC  ·  PLANE 03 · SERVER CONTROL</text>
-<text x="1232.0" y="44.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="1.6" xml:space="preserve" >LAST PUSH 2026-10-02</text>
+<text x="1232.0" y="44.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="1.6" xml:space="preserve" >LAST PUSH 2026-10-09</text>
 <line x1="48" y1="58" x2="1232" y2="58" stroke="#24242a"/>
 <rect x="48" y="57" width="36" height="2" fill="#c8102e"/>
 <text x="48.0" y="118.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="44" font-weight="700" fill="#ede8e2" text-anchor="start" letter-spacing="-1.2" xml:space="preserve" >RemoteCraft</text>

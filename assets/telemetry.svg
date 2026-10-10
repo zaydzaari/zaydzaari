@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="t d">
 <title id="t">GitHub telemetry</title>
-<desc id="d">6 original public repositories, 3 forks, 2 stars, 10 languages. 96 contributions over 19 active days in the last year. Code share: TypeScript 39.1%, JavaScript 30.1%, Python 20.0%, C# 4.2%, HTML 2.2%.</desc>
+<desc id="d">6 original public repositories, 3 forks, 2 stars, 10 languages. 100 contributions over 17 active days in the last year. Code share: TypeScript 39.1%, JavaScript 30.1%, Python 20.0%, C# 4.2%, HTML 2.2%.</desc>
 <style>
   @keyframes blink { 0%,49% { opacity:1 } 50%,100% { opacity:0 } }
   @keyframes pulse { 0% { transform:scale(1); opacity:.6 } 100% { transform:scale(2.8); opacity:0 } }
@@ -27,9 +27,9 @@
 <text x="258.0" y="184.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="1.4" xml:space="preserve" >LANGUAGES</text>
 <text x="258.0" y="222.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="36" font-weight="300" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >10</text>
 <text x="48.0" y="256.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="1.4" xml:space="preserve" >CONTRIBUTIONS · 1Y</text>
-<text x="48.0" y="294.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="36" font-weight="300" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >96</text>
+<text x="48.0" y="294.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="36" font-weight="300" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >100</text>
 <text x="258.0" y="256.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="1.4" xml:space="preserve" >ACTIVE DAYS · 1Y</text>
-<text x="258.0" y="294.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="36" font-weight="300" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >19</text>
+<text x="258.0" y="294.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="36" font-weight="300" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >17</text>
 <line x1="492" y1="82" x2="492" y2="296" stroke="#24242a"/>
 <text x="524.0" y="98.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="1.4" xml:space="preserve" >SIGNAL STRENGTH  ·  SHARE OF CODE BYTES, ORIGINAL REPOS</text>
 <text x="524.0" y="143.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >TypeScript</text>
@@ -193,6 +193,6 @@
 <rect x="1008" y="274" width="9" height="12" fill="#17171b" />
 <text x="1232.0" y="287.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="0" xml:space="preserve" > 2.2%  ·  4 repos</text>
 <line x1="48" y1="314" x2="1232" y2="314" stroke="#17171b"/>
-<text x="48.0" y="338.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="0.6" xml:space="preserve" >LAST SIGNAL  2026-10-02  /  RemoteCraft</text>
+<text x="48.0" y="338.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="0.6" xml:space="preserve" >LAST SIGNAL  2026-10-09  /  RemoteCraft</text>
 <text x="1232.0" y="338.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" fill="#3a3836" text-anchor="end" letter-spacing="0" xml:space="preserve" >regenerated weekly by .github/workflows/update-profile.yml</text>
 </svg>

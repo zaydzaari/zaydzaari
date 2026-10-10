@@ -18,57 +18,57 @@
 <text x="1232.0" y="44.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="1.6" xml:space="preserve" >SAMPLED 2026-W41</text>
 <line x1="48" y1="58" x2="1232" y2="58" stroke="#24242a"/>
 <rect x="48" y="57" width="36" height="2" fill="#c8102e"/>
-<circle cx="640" cy="330" r="153.7" fill="none" stroke="#3a3836" stroke-opacity=".55" stroke-dasharray="1 5"/>
-<text x="693.5" y="476.2" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#3a3836" text-anchor="start" letter-spacing="0" xml:space="preserve" >1 mo</text>
-<circle cx="640" cy="330" r="198.9" fill="none" stroke="#3a3836" stroke-opacity=".55" stroke-dasharray="1 5"/>
-<text x="707.4" y="519.1" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#3a3836" text-anchor="start" letter-spacing="0" xml:space="preserve" >3 mo</text>
-<circle cx="640" cy="330" r="243.1" fill="none" stroke="#3a3836" stroke-opacity=".55" stroke-dasharray="1 5"/>
-<text x="721.1" y="561.2" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#3a3836" text-anchor="start" letter-spacing="0" xml:space="preserve" >6 mo</text>
+<circle cx="640" cy="330" r="153.5" fill="none" stroke="#3a3836" stroke-opacity=".55" stroke-dasharray="1 5"/>
+<text x="693.4" y="476.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#3a3836" text-anchor="start" letter-spacing="0" xml:space="preserve" >1 mo</text>
+<circle cx="640" cy="330" r="198.5" fill="none" stroke="#3a3836" stroke-opacity=".55" stroke-dasharray="1 5"/>
+<text x="707.3" y="518.8" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#3a3836" text-anchor="start" letter-spacing="0" xml:space="preserve" >3 mo</text>
+<circle cx="640" cy="330" r="242.6" fill="none" stroke="#3a3836" stroke-opacity=".55" stroke-dasharray="1 5"/>
+<text x="721.0" y="560.7" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#3a3836" text-anchor="start" letter-spacing="0" xml:space="preserve" >6 mo</text>
 <circle cx="640" cy="330" r="3" fill="#a7a29c"/>
 <text x="640.0" y="348.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#66625d" text-anchor="middle" letter-spacing="1" xml:space="preserve" >now</text>
-<line x1="640.0" y1="135.7" x2="358.0" y2="330.0" stroke="#3a3836"/>
-<rect x="524.1" y="184.0" width="62.6" height="18" rx="2" fill="#0a0a0c" stroke="#17171b"/>
-<text x="555.4" y="197.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#a7a29c" text-anchor="middle" letter-spacing="0" xml:space="preserve" >FastAPI</text>
-<line x1="358.0" y1="330.0" x2="489.8" y2="212.7" stroke="#3a3836"/>
-<rect x="345.7" y="261.3" width="156.5" height="18" rx="2" fill="#0a0a0c" stroke="#17171b"/>
-<text x="423.9" y="274.3" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#a7a29c" text-anchor="middle" letter-spacing="0" xml:space="preserve" >allow-listed actions</text>
-<line x1="489.8" y1="212.7" x2="787.3" y2="389.5" stroke="#3a3836"/>
-<rect x="596.4" y="291.1" width="84.2" height="18" rx="2" fill="#0a0a0c" stroke="#17171b"/>
-<text x="638.5" y="304.1" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#a7a29c" text-anchor="middle" letter-spacing="0" xml:space="preserve" >WebSockets</text>
-<line x1="787.3" y1="389.5" x2="515.7" y2="529.0" stroke="#3a3836"/>
-<rect x="627.4" y="449.2" width="48.1" height="18" rx="2" fill="#0a0a0c" stroke="#17171b"/>
-<text x="651.5" y="462.2" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#a7a29c" text-anchor="middle" letter-spacing="0" xml:space="preserve" >React</text>
-<line x1="640.0" y1="135.7" x2="790.2" y2="250.2" stroke="#3a3836"/>
-<rect x="654.9" y="182.9" width="120.4" height="18" rx="2" fill="#0a0a0c" stroke="#17171b"/>
-<text x="715.1" y="195.9" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#a7a29c" text-anchor="middle" letter-spacing="0" xml:space="preserve" >model inference</text>
-<line x1="515.7" y1="529.0" x2="640.0" y2="135.7" stroke="#3a3836"/>
-<rect x="532.1" y="322.3" width="91.5" height="18" rx="2" fill="#0a0a0c" stroke="#17171b"/>
-<text x="577.8" y="335.3" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#a7a29c" text-anchor="middle" letter-spacing="0" xml:space="preserve" >LLM tooling</text>
+<line x1="640.0" y1="134.6" x2="358.0" y2="330.0" stroke="#3a3836"/>
+<rect x="524.1" y="183.2" width="62.6" height="18" rx="2" fill="#0a0a0c" stroke="#17171b"/>
+<text x="555.4" y="196.2" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#a7a29c" text-anchor="middle" letter-spacing="0" xml:space="preserve" >FastAPI</text>
+<line x1="358.0" y1="330.0" x2="489.0" y2="212.0" stroke="#3a3836"/>
+<rect x="345.2" y="261.0" width="156.5" height="18" rx="2" fill="#0a0a0c" stroke="#17171b"/>
+<text x="423.5" y="274.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#a7a29c" text-anchor="middle" letter-spacing="0" xml:space="preserve" >allow-listed actions</text>
+<line x1="489.0" y1="212.0" x2="788.8" y2="390.1" stroke="#3a3836"/>
+<rect x="596.8" y="291.1" width="84.2" height="18" rx="2" fill="#0a0a0c" stroke="#17171b"/>
+<text x="638.9" y="304.1" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#a7a29c" text-anchor="middle" letter-spacing="0" xml:space="preserve" >WebSockets</text>
+<line x1="788.8" y1="390.1" x2="515.3" y2="529.5" stroke="#3a3836"/>
+<rect x="628.0" y="449.8" width="48.1" height="18" rx="2" fill="#0a0a0c" stroke="#17171b"/>
+<text x="652.1" y="462.8" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#a7a29c" text-anchor="middle" letter-spacing="0" xml:space="preserve" >React</text>
+<line x1="640.0" y1="134.6" x2="791.6" y2="249.4" stroke="#3a3836"/>
+<rect x="655.6" y="182.0" width="120.4" height="18" rx="2" fill="#0a0a0c" stroke="#17171b"/>
+<text x="715.8" y="195.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#a7a29c" text-anchor="middle" letter-spacing="0" xml:space="preserve" >model inference</text>
+<line x1="515.3" y1="529.5" x2="640.0" y2="134.6" stroke="#3a3836"/>
+<rect x="531.9" y="322.1" width="91.5" height="18" rx="2" fill="#0a0a0c" stroke="#17171b"/>
+<text x="577.7" y="335.1" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#a7a29c" text-anchor="middle" letter-spacing="0" xml:space="preserve" >LLM tooling</text>
 <circle class="pulse" cx="358.0" cy="330.0" r="9.3" fill="none" stroke="#ff4058"/>
 <circle cx="358.0" cy="330.0" r="9.3" fill="#c8102e" stroke="#c8102e" stroke-width="1.5" filter="url(#glow)"/>
 <text x="336.7" y="309.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" fill="#c8102e" text-anchor="end" letter-spacing="2" xml:space="preserve" >CONTROL PLANE</text>
 <text x="336.7" y="329.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="400" fill="#ede8e2" text-anchor="end" letter-spacing="0" xml:space="preserve" >RemoteCraft</text>
 <text x="336.7" y="347.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="0" xml:space="preserve" >RC · Python · since 2025-12</text>
-<circle cx="787.3" cy="389.5" r="16.0" fill="#5e0a18" stroke="#c8102e" stroke-width="1.5" />
-<text x="815.3" y="368.5" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" fill="#c8102e" text-anchor="start" letter-spacing="2" xml:space="preserve" >LAB</text>
-<text x="815.3" y="388.5" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >trident-fps</text>
-<text x="815.3" y="406.5" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="0" xml:space="preserve" >TR · TypeScript · since 2026-09</text>
-<circle cx="790.2" cy="250.2" r="10.9" fill="#5e0a18" stroke="#c8102e" stroke-width="1.5" />
-<text x="813.0" y="229.2" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" fill="#c8102e" text-anchor="start" letter-spacing="2" xml:space="preserve" >RESEARCH</text>
-<text x="813.0" y="249.2" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >forest-loss study</text>
-<text x="813.0" y="267.2" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="0" xml:space="preserve" >FL · Python · since 2026-08</text>
-<circle cx="640.0" cy="135.7" r="8.6" fill="#5e0a18" stroke="#c8102e" stroke-width="1.5" />
-<text x="660.6" y="114.7" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" fill="#c8102e" text-anchor="start" letter-spacing="2" xml:space="preserve" >AGENT INFRA</text>
-<text x="660.6" y="134.7" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >linkscribe</text>
-<text x="660.6" y="152.7" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="0" xml:space="preserve" >LS · Python · since 2026-07</text>
-<circle cx="489.8" cy="212.7" r="9.8" fill="#5e0a18" stroke="#c8102e" stroke-width="1.5" />
-<text x="468.0" y="191.7" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" fill="#c8102e" text-anchor="end" letter-spacing="2" xml:space="preserve" >CONTROL PLANE</text>
-<text x="468.0" y="211.7" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="400" fill="#ede8e2" text-anchor="end" letter-spacing="0" xml:space="preserve" >HomePC</text>
-<text x="468.0" y="229.7" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="0" xml:space="preserve" >HP · C# · since 2026-07</text>
-<circle cx="515.7" cy="529.0" r="13.3" fill="#0e0e11" stroke="#66625d" stroke-width="1.5" />
-<text x="490.3" y="508.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" fill="#c8102e" text-anchor="end" letter-spacing="2" xml:space="preserve" >PRODUCT</text>
-<text x="490.3" y="528.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="400" fill="#ede8e2" text-anchor="end" letter-spacing="0" xml:space="preserve" >studymaster-ai</text>
-<text x="490.3" y="546.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="0" xml:space="preserve" >SM · JavaScript · since 2026-04</text>
+<circle cx="788.8" cy="390.1" r="16.0" fill="#5e0a18" stroke="#c8102e" stroke-width="1.5" />
+<text x="816.8" y="369.1" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" fill="#c8102e" text-anchor="start" letter-spacing="2" xml:space="preserve" >LAB</text>
+<text x="816.8" y="389.1" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >trident-fps</text>
+<text x="816.8" y="407.1" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="0" xml:space="preserve" >TR · TypeScript · since 2026-09</text>
+<circle cx="791.6" cy="249.4" r="10.9" fill="#5e0a18" stroke="#c8102e" stroke-width="1.5" />
+<text x="814.5" y="228.4" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" fill="#c8102e" text-anchor="start" letter-spacing="2" xml:space="preserve" >RESEARCH</text>
+<text x="814.5" y="248.4" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >forest-loss study</text>
+<text x="814.5" y="266.4" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="0" xml:space="preserve" >FL · Python · since 2026-08</text>
+<circle cx="640.0" cy="134.6" r="8.6" fill="#5e0a18" stroke="#c8102e" stroke-width="1.5" />
+<text x="660.6" y="113.6" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" fill="#c8102e" text-anchor="start" letter-spacing="2" xml:space="preserve" >AGENT INFRA</text>
+<text x="660.6" y="133.6" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >linkscribe</text>
+<text x="660.6" y="151.6" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="0" xml:space="preserve" >LS · Python · since 2026-07</text>
+<circle cx="489.0" cy="212.0" r="9.8" fill="#5e0a18" stroke="#c8102e" stroke-width="1.5" />
+<text x="467.2" y="191.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" fill="#c8102e" text-anchor="end" letter-spacing="2" xml:space="preserve" >CONTROL PLANE</text>
+<text x="467.2" y="211.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="400" fill="#ede8e2" text-anchor="end" letter-spacing="0" xml:space="preserve" >HomePC</text>
+<text x="467.2" y="229.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="0" xml:space="preserve" >HP · C# · since 2026-07</text>
+<circle cx="515.3" cy="529.5" r="13.3" fill="#0e0e11" stroke="#66625d" stroke-width="1.5" />
+<text x="490.0" y="508.5" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" fill="#c8102e" text-anchor="end" letter-spacing="2" xml:space="preserve" >PRODUCT</text>
+<text x="490.0" y="528.5" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="400" fill="#ede8e2" text-anchor="end" letter-spacing="0" xml:space="preserve" >studymaster-ai</text>
+<text x="490.0" y="546.5" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="0" xml:space="preserve" >SM · JavaScript · since 2026-04</text>
 <line x1="48" y1="590" x2="1232" y2="590" stroke="#17171b"/>
 <text x="48.0" y="616.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="0" xml:space="preserve" >node size = code volume   ·   3 forks not plotted: kiviomap, XLICON-V3-MD, whatsapp-bot-md</text>
 <text x="1201.9" y="616.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="0" xml:space="preserve" >older</text>
