@@ -1,111 +1,74 @@
-<div align="center">
+<!--
+  ZZ // CONTROL PLANE
+  Every image below is rendered by scripts/generate_profile.py.
+  Numbers come from the public GitHub API, refreshed weekly by .github/workflows/update-profile.yml.
+  Edit the script, not the SVGs.
+-->
 
-![Zayd Zaari - AI systems and product builder](https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,48:2563EB,100:F59E0B&height=220&section=header&text=Zayd%20Zaari&fontSize=58&fontColor=FFFFFF&fontAlignY=36&desc=AI%20Systems%20%7C%20Agent%20Tooling%20%7C%20Product%20Builder&descAlignY=57&descSize=18&animation=fadeIn)
+<img src="assets/hero.svg" width="100%" alt="Zayd Zaari. Small systems with hard edges. Agent tooling, control planes, local inference, applied research. A diagram shows six projects inside a trust boundary with one authenticated way in and one outbound-only way out.">
 
-[![LinkScribe](https://img.shields.io/badge/Live-LinkScribe-0F766E?style=for-the-badge&logo=fastapi&logoColor=white)](https://51-170-131-7.sslip.io/)
-[![StudyMaster AI](https://img.shields.io/badge/Launch-StudyMaster_AI-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://studymaster-ai-two.vercel.app)
-[![GitHub](https://img.shields.io/badge/Follow-@zaydzaari-181717?style=for-the-badge&logo=github)](https://github.com/zaydzaari?tab=followers)
+<sub><code>00 / HANDSHAKE</code></sub>
 
-</div>
+Student developer in Morocco. Most of what I build sits between something powerful and something that shouldn't get full access to it: an AI agent and a video, Google Home and a Windows PC, a web dashboard and a Linux server.
 
-## About me
+I keep those systems narrow on purpose. A fixed list of actions, one worker, one SSH boundary. I try to keep my claims the same size: the headline result of my forest-loss study is that it found no clear effect.
 
-I am a student developer from Morocco building practical AI tools and polished products. I am most interested in the engineering around AI: giving agents useful tools, running inference efficiently, designing reliable APIs, and turning experiments into software that people can actually use.
+<br>
 
-Right now I am focused on:
+<sub><code>01 / PLANES</code>&nbsp; three control planes, each with the things it refuses to do</sub>
 
-- agent tools for Codex, Claude Code, and custom GPTs
-- local speech transcription and translation on resource-constrained hardware
-- secure API design, background jobs, observability, and deployment
-- accessible web and mobile products powered by AI
+<a href="https://github.com/zaydzaari/linkscribe"><img src="assets/planes/plane-linkscribe.svg" width="100%" alt="LinkScribe, released v0.1.2. Hands coding agents an English transcript of a public YouTube, TikTok or Instagram link; transcription runs locally on a 2-core ARM VPS. Pipeline: agent, FastAPI queue, yt-dlp, FFmpeg, whisper.cpp. Boundaries: one worker, no LLM on the VPS, media deleted after every job."></a>
+<sub>&nbsp;&nbsp;<a href="https://github.com/zaydzaari/linkscribe">repo</a> · <a href="https://51-170-131-7.sslip.io/">live service</a> · <a href="https://github.com/zaydzaari/linkscribe/releases/tag/v0.1.2">release v0.1.2</a></sub>
 
-## Featured AI project
+<a href="https://github.com/zaydzaari/HomePC"><img src="assets/planes/plane-homepc.svg" width="100%" alt="HomePC, v2 private test. Turns a Windows PC into Google Home switches without opening an inbound port. Google Home talks to a Cloudflare Worker and Durable Object; a .NET agent on the PC dials out over WSS to a fixed action registry. Boundaries: no inbound port or remote shell, a fixed allow-list of actions, power actions off by default."></a>
+<sub>&nbsp;&nbsp;<a href="https://github.com/zaydzaari/HomePC">repo</a> · <a href="https://github.com/zaydzaari/HomePC/releases">releases</a></sub>
 
-### [LinkScribe](https://github.com/zaydzaari/linkscribe)
+<a href="https://github.com/zaydzaari/RemoteCraft"><img src="assets/planes/plane-remotecraft.svg" width="100%" alt="RemoteCraft, alpha. Runs Vanilla Minecraft servers on a Linux VPS from a web dashboard without handing anyone a terminal. Dashboard, FastAPI, validated operations, SSH with known_hosts, screen and java. Boundaries: no general-purpose shell, unknown SSH hosts rejected, every server JAR checked against Mojang's SHA-1."></a>
+<sub>&nbsp;&nbsp;<a href="https://github.com/zaydzaari/RemoteCraft">repo</a></sub>
 
-**A self-hosted media understanding pipeline for AI agents.** LinkScribe accepts a public YouTube, TikTok, or Instagram URL, extracts only the audio, transcribes or translates it locally, and returns clean English text through an authenticated API. Codex, Claude Code, or a custom GPT can then reason over the video.
+<br>
 
-```text
-Public media URL
-      -> yt-dlp
-      -> FFmpeg (16 kHz mono)
-      -> whisper.cpp (local transcription + translation)
-      -> FastAPI job queue
-      -> Codex / Claude Code / custom GPT
-```
+<sub><code>02 / FIELD STUDY</code>&nbsp; 642 models trained to answer one narrow question</sub>
 
-- Runs on a 2-core ARM Oracle VPS with 12 GB RAM.
-- Uses a single resource-aware worker so transcription cannot exhaust the server.
-- Includes HTTPS, bearer authentication, rate limits, cleanup, and 24-hour job expiry.
-- Ships ready-to-use Codex, Claude Code, and ChatGPT integrations.
-- A 92-second spoken TikTok completed in about 36 seconds on the reference server.
-- Verified by 39 tests with 84% coverage and a green GitHub Actions pipeline.
+<a href="https://github.com/zaydzaari/geographic-training-diversity-forest-loss"><img src="assets/planes/study-forest-loss.svg" width="100%" alt="Field study, manuscript in preparation. Under a fixed data budget, does multispectral Sentinel-2 keep its edge over RGB as forest-loss models train on more regions of the Brazilian Amazon? 107 configurations, 642 models, 2,568 zero-shot evaluations, 48 patches per model. The F1 interaction slope's 95% bootstrap interval crosses zero: no clear evidence the advantage changes with region count."></a>
+<sub>&nbsp;&nbsp;<a href="https://github.com/zaydzaari/geographic-training-diversity-forest-loss">code, configs and frozen results</a> · <a href="https://orcid.org/0009-0007-5967-1692">ORCID</a></sub>
 
-**[Repository](https://github.com/zaydzaari/linkscribe)** | **[Live service](https://51-170-131-7.sslip.io/)** | **[Demo video](https://github.com/zaydzaari/linkscribe/releases/download/v0.1.2/demo.mp4)** | **[Latest release](https://github.com/zaydzaari/linkscribe/releases/tag/v0.1.2)**
+<br>
 
-<div align="center">
+<sub><code>03 / BENCH</code>&nbsp; one shipped product, one lab run</sub>
 
-![LinkScribe demo](https://raw.githubusercontent.com/zaydzaari/linkscribe/main/docs/demo.gif)
+<a href="https://github.com/zaydzaari/studymaster-ai"><img src="assets/planes/bench-studymaster.svg" width="100%" alt="StudyMaster AI, live on Vercel. Turns study material into summaries, quizzes, mind maps, spaced repetition and an AI tutor that can read PDFs. React, Express, Gemini API."></a>
+<sub>&nbsp;&nbsp;<a href="https://github.com/zaydzaari/studymaster-ai">repo</a> · <a href="https://studymaster-ai-two.vercel.app">open the app</a></sub>
 
-</div>
+<a href="https://github.com/zaydzaari/trident-fps"><img src="assets/planes/bench-trident.svg" width="100%" alt="TRIDENT, lab. A browser 3D tactical shooter built as an agentic-coding benchmark run in Google Antigravity, with an authoritative WebSocket server, four agents and a round economy. TypeScript, Three.js, React."></a>
+<sub>&nbsp;&nbsp;<a href="https://github.com/zaydzaari/trident-fps">repo</a></sub>
 
-## Selected work
+<br>
 
-<div align="center">
+<sub><code>04 / TOPOLOGY</code>&nbsp; how the projects relate, and what they share</sub>
 
-<a href="https://github.com/zaydzaari/linkscribe">
-  <img width="48%" src="./profile/linkscribe.svg" alt="LinkScribe repository card" />
-</a>
-<a href="https://github.com/zaydzaari/studymaster-ai">
-  <img width="48%" src="./profile/studymaster-ai.svg" alt="StudyMaster AI repository card" />
-</a>
+<img src="assets/constellation.svg" width="100%" alt="Constellation of original repositories. Angle groups them by theme, distance from the centre is age, and recently pushed projects glow. Links: LinkScribe and RemoteCraft share FastAPI; RemoteCraft and HomePC share allow-listed actions; HomePC and TRIDENT share WebSockets; TRIDENT and StudyMaster share React; LinkScribe and the forest-loss study share model inference; StudyMaster and LinkScribe share LLM tooling.">
 
-</div>
+<br>
 
-| Project | What it demonstrates |
-| --- | --- |
-| [LinkScribe](https://github.com/zaydzaari/linkscribe) | Agent integrations, local inference, async APIs, ARM deployment, and production hardening |
-| [StudyMaster AI](https://github.com/zaydzaari/studymaster-ai) | An AI-powered learning product with a live, user-facing web experience |
-| [RemoteCraft](https://github.com/zaydzaari/RemoteCraft) | A secure FastAPI control plane with strict SSH boundaries, verified downloads, and automated testing |
+<sub><code>05 / TOOLCHAIN</code>&nbsp; grouped by what it's for; every row traces back to a repo</sub>
 
-## Technical focus
+<img src="assets/toolchain.svg" width="100%" alt="Toolchain. Build: Python, TypeScript, JavaScript, C# and .NET 8. Serve: FastAPI, Express, SQLite job queues, WebSockets, Cloudflare Workers and Durable Objects. Infer: whisper.cpp, FFmpeg, yt-dlp, PyTorch, Gemini and OpenRouter. Guard: bearer tokens, OAuth 2.0, SSH known_hosts, DPAPI, rate limits, checksums. Run: Linux, ARM64, systemd, Nginx and certbot, Vercel. Prove: pytest, Vitest, GitHub Actions CI, fixed seeds.">
 
-| Area | Tools and concepts |
-| --- | --- |
-| AI and agents | Codex skills, Claude Code skills, GPT Actions, whisper.cpp, tool calling, context handling |
-| Backend | Python, FastAPI, SQLite, REST APIs, job queues, long polling, authentication |
-| Media | yt-dlp, FFmpeg, speech transcription, multilingual translation |
-| Infrastructure | Linux, ARM64, systemd, Nginx, Let's Encrypt, Oracle Cloud, GitHub Actions |
-| Product | JavaScript, React, Expo, responsive UI, accessibility, deployment |
+<br>
 
-<div align="center">
+<sub><code>06 / TELEMETRY</code>&nbsp; measured, not claimed</sub>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+<img src="assets/telemetry.svg" width="100%" alt="GitHub telemetry: original repositories, forks, stars, languages and contributions from the public API, with each language's share of code bytes.">
 
-</div>
+<img src="assets/signal.svg" width="100%" alt="Daily contributions over the last twelve months, drawn as a signal trace. Activity arrives in short bursts, and most bursts line up with a new repository being created.">
 
-## GitHub activity
+<br>
 
-<div align="center">
+<sub><code>07 / EGRESS</code></sub>
 
-<img width="49%" src="./profile/stats.svg" alt="Zayd's GitHub statistics" />
-<img width="49%" src="./profile/top-langs.svg" alt="Zayd's most-used public repository languages" />
+Open to collaborating on agent tooling, self-hosted infrastructure and applied ML research. The fastest route is an issue or discussion on any of the repos above.
 
-</div>
+<sub><a href="https://github.com/zaydzaari">github.com/zaydzaari</a> · <a href="https://orcid.org/0009-0007-5967-1692">orcid.org/0009-0007-5967-1692</a> · <a href="https://studymaster-ai-two.vercel.app">studymaster-ai-two.vercel.app</a></sub>
 
-## Connect
-
-I am open to open-source collaboration, mentorship, hackathons, internships, and ambitious AI projects. If you are building something useful and need a motivated contributor, reach me through [GitHub](https://github.com/zaydzaari).
-
-<div align="center">
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,48:2563EB,100:0F766E&height=110&section=footer)
-
-</div>
+<img src="assets/footer.svg" width="100%" alt="Session closed. Inbound ports opened: zero.">
