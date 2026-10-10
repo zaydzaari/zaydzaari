@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="t d">
+<title id="t">GitHub telemetry</title>
+<desc id="d">6 original public repositories, 3 forks, 2 stars, 10 languages. 96 contributions over 19 active days in the last year. Code share: TypeScript 39.1%, JavaScript 30.1%, Python 20.0%, C# 4.2%, HTML 2.2%.</desc>
+<style>
+  @keyframes blink { 0%,49% { opacity:1 } 50%,100% { opacity:0 } }
+  @keyframes pulse { 0% { transform:scale(1); opacity:.6 } 100% { transform:scale(2.8); opacity:0 } }
+  .cursor { animation: blink 1.1s steps(1) infinite }
+  .pulse  { transform-box:fill-box; transform-origin:center; animation: pulse 2.6s ease-out infinite }
+  @media (prefers-reduced-motion: reduce) { .cursor, .pulse { animation: none } }
+</style>
+<defs><filter id="glow" filterUnits="userSpaceOnUse" x="0" y="0" width="1280" height="360"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#17171b"/></pattern></defs>
+<rect x="0.5" y="0.5" width="1279" height="359" rx="14" fill="#0a0a0c" stroke="#24242a"/>
+<path d="M16 26 V16 H26" fill="none" stroke="#66625d" stroke-width="1"/>
+<path d="M1264 26 V16 H1254" fill="none" stroke="#66625d" stroke-width="1"/>
+<path d="M16 334 V344 H26" fill="none" stroke="#66625d" stroke-width="1"/>
+<path d="M1264 334 V344 H1254" fill="none" stroke="#66625d" stroke-width="1"/>
+<text x="48.0" y="44.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="1.6" xml:space="preserve" >TELEMETRY  ·  PUBLIC GITHUB API</text>
+<text x="1232.0" y="44.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="1.6" xml:space="preserve" >SAMPLED 2026-W41</text>
+<line x1="48" y1="58" x2="1232" y2="58" stroke="#24242a"/>
+<rect x="48" y="57" width="36" height="2" fill="#c8102e"/>
+<text x="48.0" y="112.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="1.4" xml:space="preserve" >ORIGINAL REPOS</text>
+<text x="48.0" y="150.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="36" font-weight="300" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >06</text>
+<text x="258.0" y="112.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="1.4" xml:space="preserve" >FORKS</text>
+<text x="258.0" y="150.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="36" font-weight="300" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >03</text>
+<text x="48.0" y="184.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="1.4" xml:space="preserve" >STARS</text>
+<text x="48.0" y="222.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="36" font-weight="300" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >02</text>
+<text x="258.0" y="184.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="1.4" xml:space="preserve" >LANGUAGES</text>
+<text x="258.0" y="222.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="36" font-weight="300" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >10</text>
+<text x="48.0" y="256.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="1.4" xml:space="preserve" >CONTRIBUTIONS · 1Y</text>
+<text x="48.0" y="294.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="36" font-weight="300" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >96</text>
+<text x="258.0" y="256.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="1.4" xml:space="preserve" >ACTIVE DAYS · 1Y</text>
+<text x="258.0" y="294.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="36" font-weight="300" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >19</text>
+<line x1="492" y1="82" x2="492" y2="296" stroke="#24242a"/>
+<text x="524.0" y="98.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="1.4" xml:space="preserve" >SIGNAL STRENGTH  ·  SHARE OF CODE BYTES, ORIGINAL REPOS</text>
+<text x="524.0" y="143.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >TypeScript</text>
+<rect x="660" y="130" width="9" height="12" fill="#c8102e" />
+<rect x="672" y="130" width="9" height="12" fill="#c8102e" />
+<rect x="684" y="130" width="9" height="12" fill="#c8102e" />
+<rect x="696" y="130" width="9" height="12" fill="#c8102e" />
+<rect x="708" y="130" width="9" height="12" fill="#c8102e" />
+<rect x="720" y="130" width="9" height="12" fill="#c8102e" />
+<rect x="732" y="130" width="9" height="12" fill="#c8102e" />
+<rect x="744" y="130" width="9" height="12" fill="#c8102e" />
+<rect x="756" y="130" width="9" height="12" fill="#c8102e" />
+<rect x="768" y="130" width="9" height="12" fill="#c8102e" />
+<rect x="780" y="130" width="9" height="12" fill="#c8102e" />
+<rect x="792" y="130" width="9" height="12" fill="#c8102e" />
+<rect x="804" y="130" width="9" height="12" fill="#17171b" />
+<rect x="816" y="130" width="9" height="12" fill="#17171b" />
+<rect x="828" y="130" width="9" height="12" fill="#17171b" />
+<rect x="840" y="130" width="9" height="12" fill="#17171b" />
+<rect x="852" y="130" width="9" height="12" fill="#17171b" />
+<rect x="864" y="130" width="9" height="12" fill="#17171b" />
+<rect x="876" y="130" width="9" height="12" fill="#17171b" />
+<rect x="888" y="130" width="9" height="12" fill="#17171b" />
+<rect x="900" y="130" width="9" height="12" fill="#17171b" />
+<rect x="912" y="130" width="9" height="12" fill="#17171b" />
+<rect x="924" y="130" width="9" height="12" fill="#17171b" />
+<rect x="936" y="130" width="9" height="12" fill="#17171b" />
+<rect x="948" y="130" width="9" height="12" fill="#17171b" />
+<rect x="960" y="130" width="9" height="12" fill="#17171b" />
+<rect x="972" y="130" width="9" height="12" fill="#17171b" />
+<rect x="984" y="130" width="9" height="12" fill="#17171b" />
+<rect x="996" y="130" width="9" height="12" fill="#17171b" />
+<rect x="1008" y="130" width="9" height="12" fill="#17171b" />
+<text x="1232.0" y="143.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="400" fill="#a7a29c" text-anchor="end" letter-spacing="0" xml:space="preserve" >39.1%  ·  2 repos</text>
+<text x="524.0" y="179.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="0" xml:space="preserve" >JavaScript</text>
+<rect x="660" y="166" width="9" height="12" fill="#a7a29c" />
+<rect x="672" y="166" width="9" height="12" fill="#a7a29c" />
+<rect x="684" y="166" width="9" height="12" fill="#a7a29c" />
+<rect x="696" y="166" width="9" height="12" fill="#a7a29c" />
+<rect x="708" y="166" width="9" height="12" fill="#a7a29c" />
+<rect x="720" y="166" width="9" height="12" fill="#a7a29c" />
+<rect x="732" y="166" width="9" height="12" fill="#a7a29c" />
+<rect x="744" y="166" width="9" height="12" fill="#a7a29c" />
+<rect x="756" y="166" width="9" height="12" fill="#a7a29c" />
+<rect x="768" y="166" width="9" height="12" fill="#17171b" />
+<rect x="780" y="166" width="9" height="12" fill="#17171b" />
+<rect x="792" y="166" width="9" height="12" fill="#17171b" />
+<rect x="804" y="166" width="9" height="12" fill="#17171b" />
+<rect x="816" y="166" width="9" height="12" fill="#17171b" />
+<rect x="828" y="166" width="9" height="12" fill="#17171b" />
+<rect x="840" y="166" width="9" height="12" fill="#17171b" />
+<rect x="852" y="166" width="9" height="12" fill="#17171b" />
+<rect x="864" y="166" width="9" height="12" fill="#17171b" />
+<rect x="876" y="166" width="9" height="12" fill="#17171b" />
+<rect x="888" y="166" width="9" height="12" fill="#17171b" />
+<rect x="900" y="166" width="9" height="12" fill="#17171b" />
+<rect x="912" y="166" width="9" height="12" fill="#17171b" />
+<rect x="924" y="166" width="9" height="12" fill="#17171b" />
+<rect x="936" y="166" width="9" height="12" fill="#17171b" />
+<rect x="948" y="166" width="9" height="12" fill="#17171b" />
+<rect x="960" y="166" width="9" height="12" fill="#17171b" />
+<rect x="972" y="166" width="9" height="12" fill="#17171b" />
+<rect x="984" y="166" width="9" height="12" fill="#17171b" />
+<rect x="996" y="166" width="9" height="12" fill="#17171b" />
+<rect x="1008" y="166" width="9" height="12" fill="#17171b" />
+<text x="1232.0" y="179.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="0" xml:space="preserve" >30.1%  ·  3 repos</text>
+<text x="524.0" y="215.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="0" xml:space="preserve" >Python</text>
+<rect x="660" y="202" width="9" height="12" fill="#a7a29c" />
+<rect x="672" y="202" width="9" height="12" fill="#a7a29c" />
+<rect x="684" y="202" width="9" height="12" fill="#a7a29c" />
+<rect x="696" y="202" width="9" height="12" fill="#a7a29c" />
+<rect x="708" y="202" width="9" height="12" fill="#a7a29c" />
+<rect x="720" y="202" width="9" height="12" fill="#a7a29c" />
+<rect x="732" y="202" width="9" height="12" fill="#17171b" />
+<rect x="744" y="202" width="9" height="12" fill="#17171b" />
+<rect x="756" y="202" width="9" height="12" fill="#17171b" />
+<rect x="768" y="202" width="9" height="12" fill="#17171b" />
+<rect x="780" y="202" width="9" height="12" fill="#17171b" />
+<rect x="792" y="202" width="9" height="12" fill="#17171b" />
+<rect x="804" y="202" width="9" height="12" fill="#17171b" />
+<rect x="816" y="202" width="9" height="12" fill="#17171b" />
+<rect x="828" y="202" width="9" height="12" fill="#17171b" />
+<rect x="840" y="202" width="9" height="12" fill="#17171b" />
+<rect x="852" y="202" width="9" height="12" fill="#17171b" />
+<rect x="864" y="202" width="9" height="12" fill="#17171b" />
+<rect x="876" y="202" width="9" height="12" fill="#17171b" />
+<rect x="888" y="202" width="9" height="12" fill="#17171b" />
+<rect x="900" y="202" width="9" height="12" fill="#17171b" />
+<rect x="912" y="202" width="9" height="12" fill="#17171b" />
+<rect x="924" y="202" width="9" height="12" fill="#17171b" />
+<rect x="936" y="202" width="9" height="12" fill="#17171b" />
+<rect x="948" y="202" width="9" height="12" fill="#17171b" />
+<rect x="960" y="202" width="9" height="12" fill="#17171b" />
+<rect x="972" y="202" width="9" height="12" fill="#17171b" />
+<rect x="984" y="202" width="9" height="12" fill="#17171b" />
+<rect x="996" y="202" width="9" height="12" fill="#17171b" />
+<rect x="1008" y="202" width="9" height="12" fill="#17171b" />
+<text x="1232.0" y="215.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="0" xml:space="preserve" >20.0%  ·  4 repos</text>
+<text x="524.0" y="251.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="0" xml:space="preserve" >C#</text>
+<rect x="660" y="238" width="9" height="12" fill="#a7a29c" />
+<rect x="672" y="238" width="9" height="12" fill="#17171b" />
+<rect x="684" y="238" width="9" height="12" fill="#17171b" />
+<rect x="696" y="238" width="9" height="12" fill="#17171b" />
+<rect x="708" y="238" width="9" height="12" fill="#17171b" />
+<rect x="720" y="238" width="9" height="12" fill="#17171b" />
+<rect x="732" y="238" width="9" height="12" fill="#17171b" />
+<rect x="744" y="238" width="9" height="12" fill="#17171b" />
+<rect x="756" y="238" width="9" height="12" fill="#17171b" />
+<rect x="768" y="238" width="9" height="12" fill="#17171b" />
+<rect x="780" y="238" width="9" height="12" fill="#17171b" />
+<rect x="792" y="238" width="9" height="12" fill="#17171b" />
+<rect x="804" y="238" width="9" height="12" fill="#17171b" />
+<rect x="816" y="238" width="9" height="12" fill="#17171b" />
+<rect x="828" y="238" width="9" height="12" fill="#17171b" />
+<rect x="840" y="238" width="9" height="12" fill="#17171b" />
+<rect x="852" y="238" width="9" height="12" fill="#17171b" />
+<rect x="864" y="238" width="9" height="12" fill="#17171b" />
+<rect x="876" y="238" width="9" height="12" fill="#17171b" />
+<rect x="888" y="238" width="9" height="12" fill="#17171b" />
+<rect x="900" y="238" width="9" height="12" fill="#17171b" />
+<rect x="912" y="238" width="9" height="12" fill="#17171b" />
+<rect x="924" y="238" width="9" height="12" fill="#17171b" />
+<rect x="936" y="238" width="9" height="12" fill="#17171b" />
+<rect x="948" y="238" width="9" height="12" fill="#17171b" />
+<rect x="960" y="238" width="9" height="12" fill="#17171b" />
+<rect x="972" y="238" width="9" height="12" fill="#17171b" />
+<rect x="984" y="238" width="9" height="12" fill="#17171b" />
+<rect x="996" y="238" width="9" height="12" fill="#17171b" />
+<rect x="1008" y="238" width="9" height="12" fill="#17171b" />
+<text x="1232.0" y="251.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="0" xml:space="preserve" > 4.2%  ·  1 repo</text>
+<text x="524.0" y="287.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="0" xml:space="preserve" >HTML</text>
+<rect x="660" y="274" width="9" height="12" fill="#a7a29c" />
+<rect x="672" y="274" width="9" height="12" fill="#17171b" />
+<rect x="684" y="274" width="9" height="12" fill="#17171b" />
+<rect x="696" y="274" width="9" height="12" fill="#17171b" />
+<rect x="708" y="274" width="9" height="12" fill="#17171b" />
+<rect x="720" y="274" width="9" height="12" fill="#17171b" />
+<rect x="732" y="274" width="9" height="12" fill="#17171b" />
+<rect x="744" y="274" width="9" height="12" fill="#17171b" />
+<rect x="756" y="274" width="9" height="12" fill="#17171b" />
+<rect x="768" y="274" width="9" height="12" fill="#17171b" />
+<rect x="780" y="274" width="9" height="12" fill="#17171b" />
+<rect x="792" y="274" width="9" height="12" fill="#17171b" />
+<rect x="804" y="274" width="9" height="12" fill="#17171b" />
+<rect x="816" y="274" width="9" height="12" fill="#17171b" />
+<rect x="828" y="274" width="9" height="12" fill="#17171b" />
+<rect x="840" y="274" width="9" height="12" fill="#17171b" />
+<rect x="852" y="274" width="9" height="12" fill="#17171b" />
+<rect x="864" y="274" width="9" height="12" fill="#17171b" />
+<rect x="876" y="274" width="9" height="12" fill="#17171b" />
+<rect x="888" y="274" width="9" height="12" fill="#17171b" />
+<rect x="900" y="274" width="9" height="12" fill="#17171b" />
+<rect x="912" y="274" width="9" height="12" fill="#17171b" />
+<rect x="924" y="274" width="9" height="12" fill="#17171b" />
+<rect x="936" y="274" width="9" height="12" fill="#17171b" />
+<rect x="948" y="274" width="9" height="12" fill="#17171b" />
+<rect x="960" y="274" width="9" height="12" fill="#17171b" />
+<rect x="972" y="274" width="9" height="12" fill="#17171b" />
+<rect x="984" y="274" width="9" height="12" fill="#17171b" />
+<rect x="996" y="274" width="9" height="12" fill="#17171b" />
+<rect x="1008" y="274" width="9" height="12" fill="#17171b" />
+<text x="1232.0" y="287.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="0" xml:space="preserve" > 2.2%  ·  4 repos</text>
+<line x1="48" y1="314" x2="1232" y2="314" stroke="#17171b"/>
+<text x="48.0" y="338.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="0.6" xml:space="preserve" >LAST SIGNAL  2026-10-02  /  RemoteCraft</text>
+<text x="1232.0" y="338.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" fill="#3a3836" text-anchor="end" letter-spacing="0" xml:space="preserve" >regenerated weekly by .github/workflows/update-profile.yml</text>
+</svg>

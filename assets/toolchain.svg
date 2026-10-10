@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="418" viewBox="0 0 1280 418" role="img" aria-labelledby="t d">
+<title id="t">Toolchain</title>
+<desc id="d">Tools grouped by use, each backed by repositories: BUILD: Python · TypeScript · JavaScript · C# / .NET 8. SERVE: FastAPI · Express · SQLite job queues · WebSockets · Workers + Durable Objects. INFER: whisper.cpp · FFmpeg · yt-dlp · PyTorch · Gemini / OpenRouter. GUARD: bearer tokens · OAuth 2.0 · SSH known_hosts · DPAPI · rate limits · checksums. RUN: Linux · ARM64 · systemd · Nginx + certbot · Vercel. PROVE: pytest · Vitest · GitHub Actions CI · fixed seeds.</desc>
+<style>
+  @keyframes blink { 0%,49% { opacity:1 } 50%,100% { opacity:0 } }
+  @keyframes pulse { 0% { transform:scale(1); opacity:.6 } 100% { transform:scale(2.8); opacity:0 } }
+  .cursor { animation: blink 1.1s steps(1) infinite }
+  .pulse  { transform-box:fill-box; transform-origin:center; animation: pulse 2.6s ease-out infinite }
+  @media (prefers-reduced-motion: reduce) { .cursor, .pulse { animation: none } }
+</style>
+<defs><filter id="glow" filterUnits="userSpaceOnUse" x="0" y="0" width="1280" height="418"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#17171b"/></pattern></defs>
+<rect x="0.5" y="0.5" width="1279" height="417" rx="14" fill="#0a0a0c" stroke="#24242a"/>
+<path d="M16 26 V16 H26" fill="none" stroke="#66625d" stroke-width="1"/>
+<path d="M1264 26 V16 H1254" fill="none" stroke="#66625d" stroke-width="1"/>
+<path d="M16 392 V402 H26" fill="none" stroke="#66625d" stroke-width="1"/>
+<path d="M1264 392 V402 H1254" fill="none" stroke="#66625d" stroke-width="1"/>
+<text x="48.0" y="44.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="1.6" xml:space="preserve" >TOOLCHAIN  ·  GROUPED BY WHAT IT&#x27;S FOR</text>
+<text x="1232.0" y="44.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="1.6" xml:space="preserve" >EVIDENCE = REPO IDS</text>
+<line x1="48" y1="58" x2="1232" y2="58" stroke="#24242a"/>
+<rect x="48" y="57" width="36" height="2" fill="#c8102e"/>
+<text x="48.0" y="106.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#c8102e" text-anchor="start" letter-spacing="2.4" xml:space="preserve" >BUILD</text>
+<text x="150.0" y="106.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="19" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >Python · TypeScript · JavaScript · C# / .NET 8</text>
+<text x="1232.0" y="106.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="1" xml:space="preserve" >LS RC FL TR SM HP</text>
+<line x1="150" y1="126" x2="1232" y2="126" stroke="#17171b"/>
+<text x="48.0" y="152.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#c8102e" text-anchor="start" letter-spacing="2.4" xml:space="preserve" >SERVE</text>
+<text x="150.0" y="152.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="19" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >FastAPI · Express · SQLite job queues · WebSockets · Workers + Durable Objects</text>
+<text x="1232.0" y="152.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="1" xml:space="preserve" >LS RC SM TR HP</text>
+<line x1="150" y1="172" x2="1232" y2="172" stroke="#17171b"/>
+<text x="48.0" y="198.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#c8102e" text-anchor="start" letter-spacing="2.4" xml:space="preserve" >INFER</text>
+<text x="150.0" y="198.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="19" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >whisper.cpp · FFmpeg · yt-dlp · PyTorch · Gemini / OpenRouter</text>
+<text x="1232.0" y="198.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="1" xml:space="preserve" >LS FL SM</text>
+<line x1="150" y1="218" x2="1232" y2="218" stroke="#17171b"/>
+<text x="48.0" y="244.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#c8102e" text-anchor="start" letter-spacing="2.4" xml:space="preserve" >GUARD</text>
+<text x="150.0" y="244.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="19" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >bearer tokens · OAuth 2.0 · SSH known_hosts · DPAPI · rate limits · checksums</text>
+<text x="1232.0" y="244.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="1" xml:space="preserve" >LS RC HP SM</text>
+<line x1="150" y1="264" x2="1232" y2="264" stroke="#17171b"/>
+<text x="48.0" y="290.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#c8102e" text-anchor="start" letter-spacing="2.4" xml:space="preserve" >RUN</text>
+<text x="150.0" y="290.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="19" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >Linux · ARM64 · systemd · Nginx + certbot · Vercel</text>
+<text x="1232.0" y="290.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="1" xml:space="preserve" >LS RC SM TR</text>
+<line x1="150" y1="310" x2="1232" y2="310" stroke="#17171b"/>
+<text x="48.0" y="336.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#c8102e" text-anchor="start" letter-spacing="2.4" xml:space="preserve" >PROVE</text>
+<text x="150.0" y="336.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="19" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >pytest · Vitest · GitHub Actions CI · fixed seeds</text>
+<text x="1232.0" y="336.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="1" xml:space="preserve" >LS RC HP TR FL</text>
+<text x="48.0" y="394.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="0" xml:space="preserve" >LS linkscribe  HP HomePC  RC RemoteCraft  FL forest-loss  SM studymaster-ai  TR trident-fps</text>
+</svg>
