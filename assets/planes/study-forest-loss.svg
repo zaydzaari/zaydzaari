@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="384" viewBox="0 0 1280 384" role="img" aria-labelledby="t d">
+<title id="t">Field study — geographic diversity and spectral modality</title>
+<desc id="d">Under a fixed data budget, does multispectral Sentinel-2 keep its edge over RGB as forest-loss models train on more regions of the Brazilian Amazon? 107 configurations, 642 models trained, 2,568 zero-shot evaluations, 48 patches per model, fixed. Result: F1 interaction slope +0.018 per doubling, 95% interval −0.017 to +0.058. No clear evidence the advantage changes with region count. Status: manuscript in preparation.</desc>
+<style>
+  @keyframes blink { 0%,49% { opacity:1 } 50%,100% { opacity:0 } }
+  @keyframes pulse { 0% { transform:scale(1); opacity:.6 } 100% { transform:scale(2.8); opacity:0 } }
+  .cursor { animation: blink 1.1s steps(1) infinite }
+  .pulse  { transform-box:fill-box; transform-origin:center; animation: pulse 2.6s ease-out infinite }
+  @media (prefers-reduced-motion: reduce) { .cursor, .pulse { animation: none } }
+</style>
+<defs><filter id="glow" filterUnits="userSpaceOnUse" x="0" y="0" width="1280" height="384"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#17171b"/></pattern></defs>
+<rect x="0.5" y="0.5" width="1279" height="383" rx="14" fill="#0a0a0c" stroke="#24242a"/>
+<path d="M16 26 V16 H26" fill="none" stroke="#66625d" stroke-width="1"/>
+<path d="M1264 26 V16 H1254" fill="none" stroke="#66625d" stroke-width="1"/>
+<path d="M16 358 V368 H26" fill="none" stroke="#66625d" stroke-width="1"/>
+<path d="M1264 358 V368 H1254" fill="none" stroke="#66625d" stroke-width="1"/>
+<text x="48.0" y="44.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="1.6" xml:space="preserve" >FL  ·  FIELD STUDY · REMOTE SENSING</text>
+<text x="1232.0" y="44.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="1.6" xml:space="preserve" >MANUSCRIPT IN PREPARATION</text>
+<line x1="48" y1="58" x2="1232" y2="58" stroke="#24242a"/>
+<rect x="48" y="57" width="36" height="2" fill="#c8102e"/>
+<text x="48.0" y="112.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="34" font-weight="700" fill="#ede8e2" text-anchor="start" letter-spacing="-0.8" xml:space="preserve" >Geographic diversity × spectral modality</text>
+<text x="48.0" y="150.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="18" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="0" xml:space="preserve" >Under a fixed data budget, does multispectral Sentinel-2 keep its</text>
+<text x="48.0" y="176.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="18" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="0" xml:space="preserve" >edge over RGB as forest-loss models train on more regions of the</text>
+<text x="48.0" y="202.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="18" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="0" xml:space="preserve" >Brazilian Amazon?</text>
+<text x="48.0" y="264.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="34" font-weight="300" fill="#ede8e2" text-anchor="start" letter-spacing="-1" xml:space="preserve" >107</text>
+<text x="48.0" y="288.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="0.4" xml:space="preserve" >configurations</text>
+<text x="230.0" y="264.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="34" font-weight="300" fill="#ede8e2" text-anchor="start" letter-spacing="-1" xml:space="preserve" >642</text>
+<text x="230.0" y="288.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="0.4" xml:space="preserve" >models trained</text>
+<text x="412.0" y="264.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="34" font-weight="300" fill="#ede8e2" text-anchor="start" letter-spacing="-1" xml:space="preserve" >2,568</text>
+<text x="412.0" y="288.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="0.4" xml:space="preserve" >zero-shot evaluations</text>
+<text x="594.0" y="264.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="34" font-weight="300" fill="#ede8e2" text-anchor="start" letter-spacing="-1" xml:space="preserve" >48</text>
+<text x="594.0" y="288.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="0.4" xml:space="preserve" >patches per model, fixed</text>
+<line x1="808" y1="82" x2="808" y2="320" stroke="#24242a"/>
+<text x="840.0" y="98.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" fill="#c8102e" text-anchor="start" letter-spacing="2" xml:space="preserve" >RESULT</text>
+<text x="840.0" y="124.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="0" xml:space="preserve" >F1 interaction slope per doubling of regions</text>
+<line x1="840" y1="206" x2="1222" y2="206" stroke="#24242a"/>
+<line x1="840.0" y1="202" x2="840.0" y2="210" stroke="#66625d"/>
+<text x="840.0" y="228.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#66625d" text-anchor="middle" letter-spacing="0" xml:space="preserve" >-0.04</text>
+<line x1="903.7" y1="202" x2="903.7" y2="210" stroke="#66625d"/>
+<text x="903.7" y="228.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#66625d" text-anchor="middle" letter-spacing="0" xml:space="preserve" >-0.02</text>
+<line x1="967.3" y1="202" x2="967.3" y2="210" stroke="#66625d"/>
+<text x="967.3" y="228.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#66625d" text-anchor="middle" letter-spacing="0" xml:space="preserve" >0</text>
+<line x1="1031.0" y1="202" x2="1031.0" y2="210" stroke="#66625d"/>
+<text x="1031.0" y="228.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#66625d" text-anchor="middle" letter-spacing="0" xml:space="preserve" >+0.02</text>
+<line x1="1094.7" y1="202" x2="1094.7" y2="210" stroke="#66625d"/>
+<text x="1094.7" y="228.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#66625d" text-anchor="middle" letter-spacing="0" xml:space="preserve" >+0.04</text>
+<line x1="1158.3" y1="202" x2="1158.3" y2="210" stroke="#66625d"/>
+<text x="1158.3" y="228.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#66625d" text-anchor="middle" letter-spacing="0" xml:space="preserve" >+0.06</text>
+<line x1="1222.0" y1="202" x2="1222.0" y2="210" stroke="#66625d"/>
+<text x="1222.0" y="228.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#66625d" text-anchor="middle" letter-spacing="0" xml:space="preserve" >+0.08</text>
+<line x1="967.3" y1="160" x2="967.3" y2="212" stroke="#ede8e2" stroke-dasharray="2 3"/>
+<text x="967.3" y="154.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" fill="#ede8e2" text-anchor="middle" letter-spacing="0" xml:space="preserve" >no effect</text>
+<line x1="913.3" y1="190" x2="1151.6" y2="190" stroke="#c8102e" stroke-width="3"/>
+<line x1="913.3" y1="183" x2="913.3" y2="197" stroke="#c8102e" stroke-width="2"/>
+<line x1="1151.6" y1="183" x2="1151.6" y2="197" stroke="#c8102e" stroke-width="2"/>
+<circle cx="1025.7" cy="190" r="5" fill="#0a0a0c" stroke="#c8102e" stroke-width="2"/>
+<text x="840.0" y="262.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="0" xml:space="preserve" >95% bootstrap interval crosses zero</text>
+<text x="840.0" y="288.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="16" font-weight="600" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >No clear evidence the advantage changes</text>
+<text x="840.0" y="310.0" font-family="'Inter','Helvetica Neue',-apple-system,'Segoe UI',Arial,sans-serif" font-size="16" font-weight="600" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >with region count.</text>
+<line x1="48" y1="338" x2="1232" y2="338" stroke="#17171b"/>
+<text x="48.0" y="363.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="0.2" xml:space="preserve" >Python · PyTorch · rasterio · Sentinel-2 · 3 seeds   ·   × test regions sealed until a single final evaluation</text>
+<text x="1232.0" y="363.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="400" fill="#a7a29c" text-anchor="end" letter-spacing="0" xml:space="preserve" >repo →</text>
+</svg>
