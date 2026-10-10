@@ -1,0 +1,59 @@
+name: update-profile
+
+# Re-renders every SVG in assets/ from the public GitHub API.
+# Commits only when the rendered output actually changed.
+
+on:
+  schedule:
+    - cron: "17 5 * * 1" # Mondays 05:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/generate_profile.py
+      - .github/workflows/update-profile.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Render SVGs from live data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_profile.py
+
+      - name: Validate SVG XML
+        run: |
+          python - <<'PY'
+          import glob, xml.dom.minidom
+          files = glob.glob("assets/**/*.svg", recursive=True)
+          for f in files:
+              xml.dom.minidom.parse(f)
+          print(f"{len(files)} SVGs parse cleanly")
+          PY
+
+      - name: Commit if anything changed
+        run: |
+          if [ -z "$(git status --porcelain -- assets)" ]; then
+            echo "No visual changes; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git commit -m "profile: refresh telemetry ($(date -u +%G-W%V))"
+          git push
