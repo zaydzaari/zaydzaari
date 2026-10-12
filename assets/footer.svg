@@ -11,7 +11,7 @@
 <defs><filter id="glow" filterUnits="userSpaceOnUse" x="0" y="0" width="1280" height="128"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#17171b"/></pattern></defs>
 <rect x="0.5" y="0.5" width="1279" height="127" rx="14" fill="#0a0a0c" stroke="#24242a"/>
 <text x="48.0" y="50.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="400" fill="#66625d" text-anchor="start" letter-spacing="0" xml:space="preserve" >$ exit</text>
-<text x="48.0" y="80.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >session closed · inbound ports opened: 0 · build 26.10 · 2026-W41</text>
+<text x="48.0" y="80.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="0" xml:space="preserve" >session closed · inbound ports opened: 0 · build 26.10 · 2026-W42</text>
 <rect class="cursor" x="682.1" y="67" width="9" height="17" fill="#c8102e"/>
 <text x="1232.0" y="80.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="2" xml:space="preserve" >ZZ // CONTROL PLANE</text>
 <rect x="1196" y="92" width="36" height="2" fill="#c8102e"/>
