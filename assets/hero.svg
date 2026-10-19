@@ -50,9 +50,8 @@
 <text x="1232.0" y="270.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" fill="#66625d" text-anchor="end" letter-spacing="1.4" xml:space="preserve" >WAN</text>
 <rect x="889" y="184" width="12" height="12" fill="#0a0a0c" stroke="#ede8e2" />
 <text x="909.0" y="195.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="1" xml:space="preserve" >LS</text>
-<circle class="pulse" cx="1010" cy="160" r="7" fill="none" stroke="#ff4058"/>
-<rect x="1004" y="154" width="12" height="12" fill="#c8102e" stroke="#c8102e" filter="url(#glow)"/>
-<text x="1024.0" y="165.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="400" fill="#ede8e2" text-anchor="start" letter-spacing="1" xml:space="preserve" >RC</text>
+<rect x="1004" y="154" width="12" height="12" fill="#0a0a0c" stroke="#ede8e2" />
+<text x="1024.0" y="165.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="1" xml:space="preserve" >RC</text>
 <rect x="1089" y="239" width="12" height="12" fill="#0a0a0c" stroke="#ede8e2" />
 <text x="1087.0" y="271.0" font-family="ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="400" fill="#a7a29c" text-anchor="start" letter-spacing="1" xml:space="preserve" >HP</text>
 <rect x="894" y="309" width="12" height="12" fill="#0a0a0c" stroke="#ede8e2" />
