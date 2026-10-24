@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="216" viewBox="0 0 1040 216" role="img" aria-labelledby="title">
+  <title id="title">Zayd Zaari</title>
+  <rect x="0.5" y="0.5" width="1039" height="215" rx="16" fill="#0d1117" stroke="#30363d"/>
+  <rect x="40" y="57" width="5" height="102" rx="2.5" fill="#58d5cf"/>
+  <text x="68" y="134" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="80" font-weight="700" letter-spacing="-3" fill="#f0f6fc">Zayd Zaari</text>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="812" y="48" width="136" height="120" rx="24" fill="#172f37"/>
+    <path d="M852 84 L828 108 L852 132 M908 84 L932 108 L908 132 M890 78 L870 138" stroke="#58d5cf" stroke-width="6"/>
+    <path d="M772 108 H788 M972 108 H988" stroke="#58d5cf" stroke-width="3"/>
+  </g>
+</svg>

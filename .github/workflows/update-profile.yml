@@ -1,59 +1,47 @@
-name: update-profile
-
-# Re-renders every SVG in assets/ from the public GitHub API.
-# Commits only when the rendered output actually changed.
+name: validate-profile
 
 on:
-  schedule:
-    - cron: "17 5 * * 1" # Mondays 05:17 UTC
   workflow_dispatch:
   push:
     branches: [main]
     paths:
+      - README.md
+      - assets/**
+      - scripts/generate_profile.py
+      - .github/workflows/update-profile.yml
+  pull_request:
+    paths:
+      - README.md
+      - assets/**
       - scripts/generate_profile.py
       - .github/workflows/update-profile.yml
 
 permissions:
-  contents: write
-
-concurrency:
-  group: update-profile
-  cancel-in-progress: false
+  contents: read
 
 jobs:
-  render:
+  validate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v6
-
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-
-      - name: Render SVGs from live data
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate banners
         run: python scripts/generate_profile.py
-
-      - name: Validate SVG XML
+      - name: Check SVGs and README image paths
         run: |
           python - <<'PY'
-          import glob, xml.dom.minidom
-          files = glob.glob("assets/**/*.svg", recursive=True)
-          for f in files:
-              xml.dom.minidom.parse(f)
-          print(f"{len(files)} SVGs parse cleanly")
+          from pathlib import Path
+          import re
+          import xml.etree.ElementTree as ET
+          for path in Path("assets").rglob("*.svg"):
+              ET.parse(path)
+          for path in re.findall(r'(?:src|srcset)="(assets/[^" ]+)"', Path("README.md").read_text()):
+              if not Path(path).is_file():
+                  raise SystemExit(f"Missing image: {path}")
+          print("SVGs and README image paths are valid")
           PY
-
-      - name: Commit if anything changed
-        run: |
-          if [ -z "$(git status --porcelain -- assets)" ]; then
-            echo "No visual changes; nothing to commit."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets
-          git commit -m "profile: refresh telemetry ($(date -u +%G-W%V))"
-          git push
+      - name: Check generated banners are committed
+        run: git diff --exit-code -- assets
