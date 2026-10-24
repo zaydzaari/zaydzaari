@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="352" viewBox="0 0 380 352" role="img" aria-labelledby="title desc">
+<title id="title">LinkScribe pipeline</title>
+<desc id="desc">A media URL enters a FastAPI queue, audio is processed locally, and English text is returned to an AI agent. Moving dots illustrate the flow, not live job status.</desc>
+<style>
+.packet{opacity:0;animation:signal 8s ease-in-out infinite}
+.second{animation-delay:3s}
+@keyframes signal{0%,14%{opacity:0;transform:translateY(0)}22%{opacity:.85}40%{opacity:0;transform:translateY(18px)}100%{opacity:0;transform:translateY(18px)}}
+@media(prefers-reduced-motion:reduce){.packet{animation:none;opacity:0}}
+</style>
+<rect x="8" y="4" width="364" height="94" rx="10" fill="#161b22" stroke="#30363d"/>
+<rect x="8" y="20" width="3" height="62" rx="1.5" fill="#82aaff"/>
+<text x="30" y="42" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#f0f6fc">Media URL</text>
+<text x="30" y="73" font-family="Arial,sans-serif" font-size="20" fill="#b1bac4">FastAPI queue</text>
+<path d="M190 100v18m-4-4 4 4 4-4" fill="none" stroke="#30363d" stroke-width="2"/>
+<circle class="packet " cx="190" cy="100" r="3" fill="#82aaff"/>
+<rect x="8" y="120" width="364" height="94" rx="10" fill="#161b22" stroke="#30363d"/>
+<rect x="8" y="136" width="3" height="62" rx="1.5" fill="#82aaff"/>
+<text x="30" y="158" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#f0f6fc">Local inference</text>
+<text x="30" y="189" font-family="Arial,sans-serif" font-size="20" fill="#b1bac4">FFmpeg + whisper.cpp</text>
+<path d="M190 216v18m-4-4 4 4 4-4" fill="none" stroke="#30363d" stroke-width="2"/>
+<circle class="packet second" cx="190" cy="216" r="3" fill="#82aaff"/>
+<rect x="8" y="236" width="364" height="94" rx="10" fill="#161b22" stroke="#30363d"/>
+<rect x="8" y="252" width="3" height="62" rx="1.5" fill="#82aaff"/>
+<text x="30" y="274" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#f0f6fc">English text</text>
+<text x="30" y="305" font-family="Arial,sans-serif" font-size="20" fill="#b1bac4">For the calling agent</text>
+</svg>

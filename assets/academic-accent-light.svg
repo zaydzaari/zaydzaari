@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="18" viewBox="0 0 960 18" aria-hidden="true">
+<style>
+.highlight{stroke-dasharray:64 1100;animation:drift 12s linear infinite;opacity:.7}
+@keyframes drift{from{stroke-dashoffset:70}to{stroke-dashoffset:-1094}}
+@media(prefers-reduced-motion:reduce){.highlight{animation:none;opacity:0}}
+</style>
+<path d="M1 9H959" stroke="#d1d9e0" stroke-width="1"/>
+<path class="highlight" d="M1 9H959" stroke="#245cb1" stroke-width="2" stroke-linecap="round" fill="none"/>
+</svg>

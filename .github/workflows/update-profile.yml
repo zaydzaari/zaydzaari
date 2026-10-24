@@ -28,7 +28,7 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - name: Generate banners
+      - name: Generate profile illustrations
         run: python scripts/generate_profile.py
       - name: Check SVGs and README image paths
         run: |
@@ -43,5 +43,5 @@ jobs:
                   raise SystemExit(f"Missing image: {path}")
           print("SVGs and README image paths are valid")
           PY
-      - name: Check generated banners are committed
+      - name: Check generated illustrations are committed
         run: git diff --exit-code -- assets
